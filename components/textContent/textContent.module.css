@@ -1,0 +1,11 @@
+.content {
+    white-space: pre-line;
+    word-wrap: normal;
+}
+
+.textContent {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}

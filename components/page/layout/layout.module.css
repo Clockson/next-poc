@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@200;300;600&display=swap');
 
+.ecksHeader {
+  position: relative;
+}
+
+.ecks {
+  position:absolute;
+  font-family: 'Permanent Marker';
+  bottom: 20px;
+  font-size: 45px;
+  color: black;
+  transform: rotate(-15deg);
+  right: 0px;
+}
+
 .siteTitle {
   font-family: 'Poppins', sans-serif;
   font-size: 100px;

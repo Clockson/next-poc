@@ -1,0 +1,44 @@
+{
+    "deals": [
+        {
+            "id": 1,
+            "saleDiscount": 50,
+            "salePrice": 2.99
+        },
+        {
+            "id": 2,
+            "saleDiscount": 10,
+            "salePrice": 5.39
+        },
+        {
+            "id": 3,
+            "saleDiscount": 50,
+            "salePrice": 2.99
+        },
+        {
+            "id": 4,
+            "saleDiscount": 50,
+            "salePrice": 2.99
+        },
+        {
+            "id": 5,
+            "saleDiscount": 50,
+            "salePrice": 2.99
+        },
+        {
+            "id": 6,
+            "saleDiscount": 50,
+            "salePrice": 2.99
+        },
+        {
+            "id": 7,
+            "saleDiscount": 50,
+            "salePrice": 2.99
+        },
+        {
+            "id": 8,
+            "saleDiscount": 50,
+            "salePrice": 2.99
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "productName": "Red Cushion",
+            "description": "A cushion, it's Red",
+            "basePrice": 5.99,
+            "imageName": "red-cushion.jpg"
+        },
+        {
+            "id": 2,
+            "productName": "Blue Cushion",
+            "description": "A cushion, it's Blue",
+            "basePrice": 5.99,
+            "imageName": "blue-cushion.jpg"
+        },
+        {
+            "id": 3,
+            "productName": "Green Cushion",
+            "description": "A cushion, it's Green",
+            "basePrice": 5.99,
+            "imageName": "green-cushion.jpg"
+        },
+        {
+            "id": 4,
+            "productName": "Yellow Cushion",
+            "description": "A cushion, it's Yellow",
+            "basePrice": 5.99,
+            "imageName": "yellow-cushion.jpg"
+        },
+        {
+            "id": 5,
+            "productName": "Mauve Cushion",
+            "description": "A cushion, it's Mauve",
+            "basePrice": 5.99,
+            "imageName": "mauve-cushion.jpg"
+        },
+        {
+            "id": 6,
+            "productName": "Brown Cushion",
+            "description": "A cushion, it's Brown",
+            "basePrice": 5.99,
+            "imageName": "brown-cushion.jpg"
+        },
+        {
+            "id": 7,
+            "productName": "Purple Cushion",
+            "description": "A cushion, it's Purple",
+            "basePrice": 5.99,
+            "imageName": "purple-cushion.jpg"
+        },
+        {
+            "id": 8,
+            "productName": "Orange Cushion",
+            "description": "A cushion, it's Orange",
+            "basePrice": 5.99,
+            "imageName": "orange-cushion.jpg"
+        },
+        {
+            "id": 9,
+            "productName": "Silver Cushion",
+            "description": "A cushion, it's Silver",
+            "basePrice": 5.99,
+            "imageName": "silver-cushion.jpg"
+        },
+        {
+            "id": 10,
+            "productName": "Goldy Looking Cushion",
+            "description": "A cushion, it's Goldy Looking",
+            "basePrice": 5.99,
+            "imageName": "gold-cushion.jpg"
+        }
+    ]
+}
