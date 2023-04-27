@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from './layout.module.css';
 import Link from 'next/link';
+import LoginWidget from '@/components/molecules/loginWidget/loginWidget';
 
 const name = 'Your Name';
 export const siteTitle = 'Colourful Cushions by Ecks';
@@ -16,7 +17,9 @@ export default function Layout({ children }) {
       <main className={styles.main}>
         <div className={styles.ecksHeader}>
         <div className={styles.siteTitle}><Link href="/">Colourful Cushions</Link></div>
-        <div className={styles.ecks}>by Ecks</div>
+        <div className={styles.accountDetails}>
+          <LoginWidget></LoginWidget>
+        </div>
         </div>
         <div className={styles.mainContent}>{children}</div>
       </main>

@@ -1,0 +1,48 @@
+.accountBubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lch(73% 80 60);
+    width: 75px;
+    height: 75px;
+    border-radius: 37px;
+}
+
+.loading {
+    color: white;
+    font-size: 20px;
+}
+
+.userImage {
+    width: 69px;
+    height: 69px;
+    border-radius: 30px;
+}
+
+.accountMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuButton {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    padding: 2px 12px;
+    border-radius: 10px;
+    border: none;
+}
+
+.menuButton:hover {
+    background-color: purple;
+}
+
+.menuShow {
+    display: block;
+}
+
+.optionMenu {
+    padding-top: 10px;
+}

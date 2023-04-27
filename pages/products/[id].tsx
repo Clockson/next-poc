@@ -1,11 +1,13 @@
 import { GetProduct, LoadJSONFromFile } from '../../utils/dataloader';
 import Layout from "../../components/page/layout/layout";
 import ProductInfoFull from "../../components/molecules/productInfoFull/productInfoFull";
+import Link from 'next/link';
 
 export default function Product({ productData }:any) {
     return (
         <Layout>
             <ProductInfoFull product={productData}></ProductInfoFull>
+            <Link href={"../cart?productId=" + productData.id}>Add to Cart</Link>
         </Layout>
     );
   }

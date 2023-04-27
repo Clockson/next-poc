@@ -1,6 +1,4 @@
-import { useEffect, useState } from 'react';
-import Head from 'next/head'
-import Image from 'next/image';
+import { cache, useEffect, useState } from 'react';
 import Layout from '../components/page/layout/layout';
 import TextContent from '../components/textContent/textContent';
 import DealsShower from '../components/molecules/dealsShower/dealsShower';
@@ -8,17 +6,21 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
 import { LoadJSONFromFile, GetDealList } from './../utils/dataloader';
+import { DealsService } from '@/utils/DealsService';
+import { RedisCacheService } from '@/utils/RedisCacheService';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export function getStaticProps() {
-  const welcomeMessage = LoadJSONFromFile('welcome.json');
-  const dealsList = GetDealList(4);
+export async function getStaticProps() {
+  const welcomeMessage = await LoadJSONFromFile('welcome.json');
+  const cacheService = new RedisCacheService();
+  //await cacheService.Connect();
+  const dealsService = new DealsService(cacheService);
 
   return {
     props: {
       welcomeMessage,
-      dealsList,
+      dealsList: dealsService.GetDealList(4),
     },
   };
 }
@@ -36,8 +38,6 @@ export default function Home({ welcomeMessage, dealsList }: any) {
           setDeals(data.deals);
         });
     }
-
-    //setDeals(result);
   });
 
   return (

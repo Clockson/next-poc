@@ -2,6 +2,9 @@
 
 .ecksHeader {
   position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .ecks {
@@ -39,6 +42,12 @@
   align-items: center;
   padding: 1rem;
   min-height: 100vh;
+}
+
+.accountDetails {
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 .description {

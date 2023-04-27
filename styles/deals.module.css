@@ -1,0 +1,23 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.deals {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.buttonise {
+    background-color: salmon;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-left: 17px;
+}
